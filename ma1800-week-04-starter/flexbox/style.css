@@ -1,0 +1,13 @@
+/* Add the Flexbox layout and flex ratios */
+
+.content-block-green{
+    flex: 1;
+}
+
+.content-block-yellow{
+    flex: 1;
+}
+
+.content-block-red{
+    flex: 2;
+}
