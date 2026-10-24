@@ -1,0 +1,9 @@
+/* Add styles for the class and ID selectors */
+.myClass {
+    color:red;
+}
+
+#summary{
+    color:aquamarine
+    
+}

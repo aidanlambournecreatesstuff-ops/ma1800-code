@@ -1,0 +1,5 @@
+/* Add the background image and repeat styles */
+body{
+    background-image: url(Steph\ Puzzle.png);
+    background-repeat: no-repeat;
+}
