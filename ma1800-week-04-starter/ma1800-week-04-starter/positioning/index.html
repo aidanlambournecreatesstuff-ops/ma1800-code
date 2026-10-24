@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <title>Exercise 1 (W4) — Positioning Elements</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <h2 class="yellow">Default</h2>
+
+      <p class="yellow">
+
+        A normal paragraph with default positioning. This paragraph will fit
+        itself to the width of the containing element, wrapping to a new line
+        rather than spilling out of the container.
+
+        <img src="assets/positioning-animation.gif">
+
+      </p>
+
+      <p class="yellow">
+
+        Subsequent paragraphs will follow the normal flow, appearing on a new
+        line underneath.
+
+      </p>
+    </div>
+
+    <div class="container">
+      <h2 class="red">Absolute</h2>
+
+      <p class="absolute red">
+        A paragraph positioned <i>absolutely</i> in relation to the body: 
+        in this case, 200px from the left, 750px from the top.
+        It will break out of its containing element, but will be constrained by
+        the width of the browser window. If we want to give an
+        absolute-positioned element a smaller width, we must specify it
+        explicitly in the CSS.
+      </p>
+    </div>
+
+    <div class="container">
+      <h2 class="green">Relative</h2>
+      <p class="relative green">
+        A paragraph positioned <i>relative</i> to where it would ordinarily appear by default. 
+        It adopts the width of its parent element, but will be offset by the values
+        specified in the CSS.
+      </p>
+    </div>
+
+    <div class="container">
+      <h2 class="blue">Fixed</h2>
+      <p class="blue fixed">
+        A <i>Fixed</i> paragraph that is positioned relative to browser window,
+        and will stay in this position while we scroll.
+      </p>
+    </div>
+  </body>
+</html>

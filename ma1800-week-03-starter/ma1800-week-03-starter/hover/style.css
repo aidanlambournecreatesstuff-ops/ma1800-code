@@ -1,0 +1,12 @@
+/* Add the hidden and hover styles */
+#content{
+    background-color:blueviolet;
+    color:white;
+}
+.hide{
+    color:aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hide:hover{
+    color:blue;
+}
