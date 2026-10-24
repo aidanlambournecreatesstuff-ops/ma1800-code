@@ -1,9 +1,0 @@
-/* Position the clues and the cat around the page */
-
-#cat{
-    color:white;
-    flex: 1;
-}
-#cat:hover{
-    color:black;
-}

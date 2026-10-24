@@ -1,3 +1,0 @@
-This is where I will be practicing coding for MA1800
-<br>
-https://aidanlambournecreatesstuff-ops.github.io/ma1800-code/
