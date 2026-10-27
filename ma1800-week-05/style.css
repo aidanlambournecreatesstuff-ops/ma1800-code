@@ -1,0 +1,95 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: lightskyblue;
+}
+
+p {
+    font-size: 18px;
+}
+
+.page1{
+    background-image: url("assets/Plague\ GIF.gif");
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+.highlight{
+    background-color: yellow;
+    padding: 20px;  
+}
+
+.page2{
+    background: linear-gradient(to bottom, lightskyblue, pink, yellow, orange);
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 20px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: green;
+    margin: 20px;
+    background-image: url("assets/Halo\ GIF.gif");
+    background-repeat: repeat;
+}
+
+.rectangle{
+    width: 180px;
+    height: 100px;
+    background: blue;
+    margin: 20px;
+}
+
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid orange;  
+    margin: 20px;
+}
+
+.position-area{
+    position: relative;
+    height: 300px;
+    border: 2px dotted black;
+}
+
+.position-box{
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: yellow;
+}
+
+.relative{
+    position: relative;
+    left: 100px;
+}
+
+.absolute{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: red;
+}
+
+.fixed{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: lightblue;
+}
+
+.gif{
+    width: 200px;
+}
