@@ -1,0 +1,30 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 4rem;
+    margin: 50px;
+}
+
+@keyframes spin {
+    100% {transform: rotateY(360deg) rotate(360deg);}
+}
+
+img {
+    position: fixed;
+    top: 50px;
+    z-index: 0;
+     animation: spin 2s normal infinite;
+}
+
+.letter {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: blue;
+    margin: 10px;
+    z-index: 10;
+
+    animation: spin 2s normal infinite;
+}
