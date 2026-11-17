@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+            body{
+                background: white;
+                height: 100vh;
+                display: grid;
+                place-items: center;
+                margin: 0;
+            }
+            .line{
+                width: 400px;
+                height: auto;
+                background: aqua;
+                background: linear-gradient(-45deg, orange, yellow, white, skyblue, aqua);
+                background-size: 200% 200%;
+                animation: move 60s infinite alternate;
+
+            }
+            @keyframes move{
+                from {transform: rotate(0deg);}
+                to {transform: rotate(360deg);} 
+                 0% {background-position: 0% 50%;}
+                50% {background-position: 100% 50%;}
+                100% {background-position: 0% 50%;}               
+            }
+            @keyframes gradient{
+
+            }
+            
+        </style>
+    </head>
+    <body>
+            <div class="line">       
+            <p>
+            The screen glows.
+
+Someone has left a door open.
+
+Behind it,  
+another page.
+
+Behind that,  
+another.
+
+No map.  
+No centre.  
+No final destination.
+
+Only links,  
+small blue invitations  
+leading somewhere else.
+
+A garden made of addresses.  
+A city made of pages.  
+A network of strangers  
+building rooms for one another.
+
+Click and drift.
+
+Lose the path.
+
+Find another.
+
+The web is still young here,  
+unfinished,  
+unmapped,  
+full of promises.
+        
+<a href="page3.html">enter the maze</a>
+
+    </p>
+    </div>
+    </body>
+</html>

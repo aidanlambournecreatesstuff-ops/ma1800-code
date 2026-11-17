@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            body{
+                background: white;
+                height: 100vh;
+                display: grid;
+                place-items: center;
+                margin: 0;
+            }
+            .line{
+                width: 400px;
+                height: 200px;
+                background: black;
+                animation: move 3s infinite alternate-reverse forwards;
+            }
+            @keyframes move{
+                from {transform: rotate(0deg);}
+                to {transform: rotate(360deg);}                
+            }
+        </style>
+    </head>
+    <body>
+        <a href="page2.html"> 
+            <div class="line"></div>         
+        </a>
+    </body>
+</html>
