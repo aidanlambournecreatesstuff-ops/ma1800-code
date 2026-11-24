@@ -1,0 +1,69 @@
+html{
+    font-size: 75%;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: greenyellow;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 25px 0 10px 0;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid lime;
+    border-style: groove;
+}
+
+#content{
+    width: 600px;
+    margin: 50px auto;
+}
+
+#article{
+    min-width: 300px;
+    font-size: 1.2rem;
+}
+
+.article-image{
+    width: 80%;
+    margin: 20px 10% 5px 10%;
+    border: 4px groove lime;
+}
+
+.caption{
+    width: 80%;
+    margin: 10px 10% 20px 10%;
+    text-align: center;
+    font-style: italic;
+    color: green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tray{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background: darkgreen;
+    color: lime;
+    display: flex;
+    flex-direction: row;
+}
+
+.tray-item{
+    flex: 1 1 auto;
+    border: 2px solid lime;
+    padding: 15px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    color:limegreen;
+}

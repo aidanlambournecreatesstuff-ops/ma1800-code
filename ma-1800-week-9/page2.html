@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-family: monospace;
+                background: yellowgreen;
+                margin: 40px;
+            }
+            .video-box{
+                width: 600px;
+                margin-bottom: 40px;
+            }
+            video, iframe{
+                width: 100%;
+            }
+        </style>    
+    </head>
+    <body>
+        <h1>This is a video exercise</h1>
+        <div class="video-box">
+            <h2>Internal Video file (this is my video)</h2>
+            <a href="page3.html">
+            <video autoplay>
+                <source src="assets-week-09/video-clip.mp4" type="video/mp4">
+            </video></a>
+        </div>
+        <div class="video-box">
+            <h2>External Video / YouTube</h2>
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/bn9F19Hi1Lk?si=wzbzxsaF95r9kdHB" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        </div>
+    </body>
+</html>
